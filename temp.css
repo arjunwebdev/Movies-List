@@ -72,12 +72,12 @@ h1, p {
 
 /*
  * Caption component
- */
+ 
 .images {
     position: relative;
     overflow: hidden;
 
-    /* Only the -webkit- prefix is required these days */
+    /* Only the -webkit- prefix is required these days 
     -webkit-transform: translateZ(0);
             transform: translateZ(0);
 }
@@ -136,4 +136,4 @@ h1, p {
 .caption:hover .caption__overlay__title {
     -webkit-transform: translateY(0);
             transform: translateY(0);
-}
+}*/
