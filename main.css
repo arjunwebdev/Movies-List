@@ -6,11 +6,11 @@
     height: auto;
 }
 */
-.imgages {
+.images {
     position: relative;
     float: left;
     width:  400px;
-    height: 400px;
+    height: 200px;
     background-position: 25% 50%;
     background-repeat:   no-repeat;
     background-size:     cover;
@@ -19,28 +19,40 @@
 .image-box1 {
 	background-size: cover;
 	background-image: url('images/img1.jpg');
-	height: 600px;
-	width: 400px;
+	height: 300px;
+	overflow: hidden;
+	background-position: 50% 50%;
+	
 }
 
 .image-box2 {
 	background-size: cover;
 	background-image: url('images/img2.jpg');
-	height: 600px;
-	width: 400px;
-	background-position: 25% 25%;
+	height: 300px;
+	overflow: hidden; 
+	background-position: 50% 50%;
+}
+
+.col-sm-3{
+	width: 50%;
 }
 
 .image-box3 {
 	background-size: cover;
 	background-image: url('images/img3.jpg');
-	height: 600px;
-	width: 400px;
+	height: 300px;
+	overflow: hidden;
+	background-position: 50% 50%;
 }
 
 .image-box4 {
 	background-size: cover;
 	background-image: url('images/img4.jpg');
-	height: 600px;
-	width: 400px;
+	height: 300px;
+	overflow: hidden;
+	background-position: 50% 50%;
 }
+
+.container{
+	width: 1170px;
+} 
